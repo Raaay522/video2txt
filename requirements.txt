@@ -1,0 +1,6 @@
+# 核心:本地 Whisper 高效實作(CPU 比官方 openai-whisper 快約 4 倍,且內建解碼器、免裝系統 ffmpeg)
+faster-whisper>=1.0.0
+
+# 選用:讓 --device auto 能偵測到 GPU。沒有 NVIDIA 顯卡可不裝。
+# 若要裝 GPU 版,請依顯卡到 https://pytorch.org 取得對應 CUDA 指令。
+# torch
